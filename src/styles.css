@@ -6,8 +6,7 @@
   .puntero{
     cursor: pointer;
   }
-  
-  
+
   .chat-window{
     padding: 10px;
     width: 300px;
@@ -23,7 +22,6 @@
     /*background:gray;*/
     padding: 5px;
   }
-  
   
   /* Animaciones */
   .animated {
