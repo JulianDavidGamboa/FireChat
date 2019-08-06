@@ -3,18 +3,18 @@
 
 <div class="app-mensajes" id="app-mensajes">
 
-    <div class="text-right">
+    <div class="text-right" *ngFor="let chat of _cs.chats">
         <span class="badge badge-primary">Julián</span>
         <p>
-            Este es un mensaje de chat
+            {{ chat.mensaje }}
         </p>
     </div>
-    <div>
+    <!-- {% comment %} <div>
         <span class="badge badge-success">Monica</span>
         <p>
             Este es un mensaje de chat
         </p>
-    </div>
+    </div> {% endcomment %} -->
     
 
 </div>
